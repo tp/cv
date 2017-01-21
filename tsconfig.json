@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "_compiledJS",
+    "importHelpers": true,
+    "inlineSourceMap": false,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "target": "es6",
+    "lib": ["dom", "es2015"],
+    "jsx": "react",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "src/**",
+    "libs.d.ts"
+  ]
+}

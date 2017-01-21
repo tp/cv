@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "main": "src/index.tsx",
+  "repository": "git@github.com:tp/cv.git",
+  "author": "Timm Preetz <timm@preetz.us>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/react": "^15.0.1",
+    "@types/react-dom": "^0.14.20",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "next",
+    "webpack-dev-server": "next"
+  },
+  "scripts": {
+    "watch": "webpack-dev-server --content-base resources/public --inline --config webpack.watch.config.js"
+  }
+}
